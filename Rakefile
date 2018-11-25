@@ -1,6 +1,7 @@
 require 'yard'
 require 'rake/testtask'
 require 'rubocop/rake_task'
+require_relative 'lib/timer'
 
 task default: %i[rubocop test]
 
